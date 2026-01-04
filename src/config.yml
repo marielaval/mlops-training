@@ -1,0 +1,14 @@
+experiment:
+  metric: val_accuracy
+  maximize: true
+  epochs: 30
+  batch_size: 32
+  seed: 42
+
+model:
+  hidden_size: [8, 16, 32]
+  dropout: [0.0, 0.2]
+
+optim:
+  lr: [0.0005, 0.001, 0.003]
+  weight_decay: [0.0, 0.0001]
