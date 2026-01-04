@@ -1,0 +1,11 @@
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+torch
+fastapi
+pyyaml
+uvicorn
+json
+pathlib
